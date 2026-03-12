@@ -51,3 +51,16 @@ function exercicio3() {
         console.log("Prejuízo");
     }
 }
+
+// 4 – Ordenação de valores
+function exercicio4() {
+    let numeros = [];
+
+    for (let i = 0; i < 4; i++) {
+        numeros.push(Number(prompt("Digite um número")));
+    }
+
+    numeros.sort((a, b) => b - a);
+
+    console.log("Ordem decrescente:", numeros);
+}
