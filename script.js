@@ -64,3 +64,16 @@ function exercicio4() {
 
     console.log("Ordem decrescente:", numeros);
 }
+
+// 5 – Transformação par e ímpar
+function exercicio5() {
+    let numero = Number(prompt("Digite um número"));
+
+    if (numero % 2 == 0) {
+        numero = numero + 1;
+    } else {
+        numero = numero + 1;
+    }
+
+    console.log("Resultado:", numero);
+}
