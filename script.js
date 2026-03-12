@@ -16,3 +16,12 @@ function exercicio1() {
 
     console.log("Soma total:", soma);
 }
+
+// 2 – Contagem regressiva da NASA
+function exercicio2() {
+    for (let i = 10; i >= 0; i--) {
+        console.log(i);
+    }
+
+    console.log("Lançamento realizado!");
+}
