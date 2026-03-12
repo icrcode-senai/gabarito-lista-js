@@ -138,3 +138,52 @@ function exercicio8() {
     console.log("Dobro de A + Triplo de B:", (a * 2) + (b * 3));
     console.log("Multiplicação:", a * b);
 }
+
+// 9 – Ordenação entre dois números
+function exercicio9() {
+    let a = Number(prompt("Digite o primeiro número"));
+    let b = Number(prompt("Digite o segundo número"));
+
+    if (a > b) {
+        console.log(a, b);
+    } else {
+        console.log(b, a);
+    }
+}
+
+// 10 – Folha de pagamento simples
+function exercicio10() {
+    let nome = prompt("Nome do funcionário");
+    let salario = Number(prompt("Salário bruto"));
+
+    let desconto = salario * 0.08;
+    let liquido = salario - desconto;
+
+    console.log("Funcionário:", nome);
+    console.log("Salário bruto:", salario);
+    console.log("Desconto INSS:", desconto);
+    console.log("Salário líquido:", liquido);
+}
+
+// 11 – Folha de pagamento com desconto variável
+function exercicio11() {
+    let salario = Number(prompt("Digite o salário"));
+
+    let taxa;
+
+    if (salario <= 1000) {
+        taxa = 0.08;
+    } else if (salario <= 1500) {
+        taxa = 0.085;
+    } else {
+        taxa = 0.09;
+    }
+
+    let desconto = salario * taxa;
+    let liquido = salario - desconto;
+
+    console.log("Salário:", salario);
+    console.log("Taxa aplicada:", taxa * 100 + "%");
+    console.log("Desconto:", desconto);
+    console.log("Salário líquido:", liquido);
+}
