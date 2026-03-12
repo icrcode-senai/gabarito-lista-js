@@ -77,3 +77,17 @@ function exercicio5() {
 
     console.log("Resultado:", numero);
 }
+
+// 6 – Verificar vogal ou consoante
+function exercicio6() {
+    let letra = prompt("Digite uma letra");
+
+    if (
+        letra == "a" || letra == "e" || letra == "i" ||
+        letra == "o" || letra == "u"
+    ) {
+        console.log("Vogal");
+    } else {
+        console.log("Consoante");
+    }
+}
