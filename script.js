@@ -187,3 +187,15 @@ function exercicio11() {
     console.log("Desconto:", desconto);
     console.log("Salário líquido:", liquido);
 }
+
+exercicio1();
+exercicio2();
+exercicio3();
+exercicio4();
+exercicio5();
+exercicio6();
+exercicio7();
+exercicio8();
+exercicio9();
+exercicio10();
+exercicio11();
